@@ -1,0 +1,11 @@
+.projects-page{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font: 400 1rem Roboto Mono,monospace;
+    
+    font-size: 2rem;
+}

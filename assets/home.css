@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27');
+:root{
+    --color-100: #ebf8ff;
+    --color-150: #bee3f8;
+    --color-200: #90cdf4;
+    --color-300: #63b3ed;
+    --color-400: #4299e1;
+    --color-500: #3182ce;
+    --color-600: #2b6cb0;
+    --color-900: #1a365d;
+    --background: #0c0b11;
+    --padding-main: 7rem;
+}
+*{
+    color: var(--color-100);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--background)
+}
+.spacing{
+    width: 100%;
+    height: 4rem;
+}
+
+/* ===========RESET TAGS=========== */
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* ===========COLOR NAME=========== */
+
+.tittle-name{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.purple-color{
+    color: #9f7aea;
+}
+.pink-color{
+    color: #ed64a6;
+}
+.green-color{
+    color: #48bb78;
+}
+.blue-color{
+    color: #4299e1;
+}
+
+/* ===========NAV BAR=========== */
+
+.head{
+    font-family: 'Poppins';
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: var(--padding-main);
+    padding-right: var(--padding-main);
+    margin: 0 auto;
+    line-height: 4rem;
+    overflow: hidden;
+    border-bottom: 2px solid var(--color-500);
+    background: #000;
+}
+.nav{
+    width: 100%;
+}
+.nav-container{
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.ul-bar{
+    gap: 3.5rem;
+    display: flex;
+}
+.ul-bar a{
+    position: relative;
+    font-weight: 600;
+}
+
+/* ===========HOME PAGE=========== */
+
+.home-page{
+    padding-left: var(--padding-main);
+    padding-right: var(--padding-main);
+    height: 100vh;
+    position: relative;
+    font: 400 1rem Roboto Mono,monospace;
+    
+}
+.home-page-container{
+    position: relative;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.58fr 1.4fr;
+}
+.div-profile-home-page{
+    width: 100%;
+}
+.div-home-home-page{
+    position: relative;
+    height: 350px;
+    /* display: flex;
+    justify-content: end; */
+}
+.svg-home{
+    width: 410px;
+}
+.tittle-home-page{
+    font-size: 4rem;
+}
+.p-home-page{
+    font-size: 1.2rem;
+}
+.a-home-page{
+    color: var(--color-500);
+}
+
+/* ===========SOBRE MIM=========== */
+
+.about-me-page{
+    font: 400 1rem Roboto Mono,monospace;
+    padding-left: var(--padding-main);
+    padding-right: var(--padding-main);
+    min-height: 50vh;
+    position: relative;
+}
+.div-about-me-container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-me-text{
+    border: solid 1px #181818;
+    padding: 20px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+/* ===========LINGUAGENS=========== */
+
+.language-page{
+    font: 400 1rem Roboto Mono,monospace;
+    padding-left: var(--padding-main);
+    padding-right: var(--padding-main);
+    min-height: 70vh;
+    position: relative;
+}
+.language-page-container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0 50px 0;
+    gap: 5rem;
+}
+.box-html, .box-css, .box-js{
+    width: 250px;
+    height: 160px;
+    border: solid 1px #181818;
+    display: grid;
+    place-items: center;
+    position: relative;
+    transition:.2s, border .5s;
+}
+.div-icon-html, .div-icon-css, .div-icon-js{
+    height: 82px;
+}
+.icon-html, .icon-css, .icon-js{
+    width: 80px;
+}
+.tittle-html{
+    color: #e34f26;
+}
+.tittle-css{
+    color: #1572b6; 
+}
+.tittle-js{
+    color: #f7df1e;
+}
+.tittle-html, .tittle-css, .tittle-js{
+    font-size: 1.4rem;
+}
+.box-html:hover, .box-css:hover, .box-js:hover{
+    transform: scale(1.1);
+
+}
+.box-html:hover{
+    border: solid 2px #e34f26;
+}
+.box-css:hover{
+    border: solid 2px #1572b6;
+}
+.box-js:hover{
+    border: solid 2px #f7df1e;
+}
+
+/* ===========LINGUAGENS=========== */
+
+.footer-page{
+    border-top: 2px solid var(--color-500);
+    font: 400 1rem Roboto Mono,monospace;
+    padding-left: var(--padding-main);
+    padding-right: var(--padding-main);
+    min-height: 20vh;
+    position: relative;
+    /* text-align: center; */
+}
+.footer-page-container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+}
+.tittle-languages-used, .tittle-contacts, .tittle-social-networks{
+    padding-bottom: 10px;
+}
+.languages-used-text, .contacts-text{
+    font-size: 1.1rem;
+}
+.social-networks-text{
+    font-size: 1.8rem;
+}
+.languages-used-text a:hover, .contacts-text a:hover, .social-networks-text ion-icon:hover{
+    color: var(--color-500);
+}
+
+/* ===========HOME=========== */
+@media all and (max-width: 1100px){
+    .home-page{
+        padding-left: var(--padding-main);
+        padding-right: var(--padding-main);
+        height: 100vh;
+        position: relative;
+        font: 400 1rem Roboto Mono,monospace;
+    }
+    .home-page-container{
+        position: relative;
+        max-width: 1200px;
+        min-height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        justify-content: center;
+
+    }
+    .div-profile-home-page{
+        width: 100%;
+        text-align: center;
+    }
+    .svg-home{
+        width: 370px;
+    }
+    .tittle-home-page{
+        font-size: 2.5rem;
+    }
+    .p-home-page{
+        font-size: 1.1rem;
+    }
+}
+/* ===========FOOTER=========== */
+@media all and (max-width: 946px){
+    .footer-page-container{
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        min-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 0 20px 0;
+        gap: 2.5rem;
+    }
+    .footer-page{
+        border-top: 2px solid var(--color-500);
+        font: 400 1rem Roboto Mono,monospace;
+        padding-left: var(--padding-main);
+        padding-right: var(--padding-main);
+        min-height: 20vh;
+        position: relative;
+    }
+}
+/* ===========ROOT=========== */
+@media all and (max-width: 645px){
+    :root{
+        --color-100: #ebf8ff;
+        --color-150: #bee3f8;
+        --color-200: #90cdf4;
+        --color-300: #63b3ed;
+        --color-400: #4299e1;
+        --color-500: #3182ce;
+        --color-600: #2b6cb0;
+        --color-900: #1a365d;
+        --background: #0c0b11;
+        --padding-main: 3.5rem;
+    }
+}
+/* ===========SVG=========== */
+@media all and (max-width: 590px){
+    .svg-home{
+        width: 320px;
+    } 
+}
+/* ===========FONT HOME/ICONS=========== */
+@media all and (max-width: 540px){
+    .tittle-home-page{
+        font-size: 2rem;
+    }
+    .p-home-page{
+        font-size: 1rem;
+    }
+    .icon-html, .icon-css, .icon-js{
+        width: 70px;
+    }
+    .tittle-html, .tittle-css, .tittle-js{
+        font-size: 1.3rem;
+    }
+}
+/* ===========HOME=========== */
+@media all and (max-width: 490px){
+    .home-page-container{
+        position: relative;
+        max-width: 1200px;
+        min-height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .div-profile-home-page{
+        width: 100%;
+        text-align: center;
+    }
+}
+/* ===========FONT HOME=========== */
+@media all and (max-width: 460px){
+    .tittle-home-page{
+        font-size: 2.1rem;
+    }
+    .svg-home{
+        width: 270px;
+    } 
+}
+/* ===========FOOTER=========== */
+@media all and (max-width: 400px){
+    .languages-used-text, .contacts-text{
+        font-size: 0.9rem;
+    }
+}
+@media all and (max-width: 390px){
+    .svg-home{
+        width: 230px;
+    } 
+    .tittle-home-page{
+        font-size: 2rem;
+    }
+    .p-home-page{
+        font-size: 0.9rem;
+    } 
+}
+@media all and (max-width: 380px){
+    .languages-used-text, .contacts-text{
+        font-size: 0.7rem;
+    }
+}
