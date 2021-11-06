@@ -186,7 +186,7 @@ ul{
 .home-page{
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     font: 400 1rem Roboto Mono,monospace;
     
@@ -227,8 +227,10 @@ ul{
     font: 400 1rem Roboto Mono,monospace;
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
+    padding: 20px;
     min-height: 50vh;
     position: relative;
+    background: purple;
 }
 .div-about-me-container{
     position: relative;
@@ -346,9 +348,10 @@ ul{
     .home-page{
         padding-left: var(--padding-main);
         padding-right: var(--padding-main);
-        height: 100vh;
+        min-height: 100vh;
         position: relative;
         font: 400 1rem Roboto Mono,monospace;
+        background: #ccc;
     }
     .home-page-container{
         position: relative;
@@ -359,7 +362,6 @@ ul{
         flex-direction: column-reverse;
         gap: 2rem;
         justify-content: center;
-
     }
     .div-profile-home-page{
         width: 100%;
@@ -373,6 +375,15 @@ ul{
     }
     .p-home-page{
         font-size: 1.1rem;
+    }
+    .about-me-page{
+        font: 400 1rem Roboto Mono,monospace;
+        padding-left: var(--padding-main);
+        padding-right: var(--padding-main);
+        padding: 50px 0;
+        min-height: 50vh;
+        position: relative;
+        background: purple;
     }
 }
 /* ===========FOOTER=========== */
@@ -538,7 +549,7 @@ ul{
     }
     .p-home-page{
         font-size: 0.9rem;
-    } 
+    }
 }
 @media all and (max-width: 380px){
     .languages-used-text, .contacts-text{
