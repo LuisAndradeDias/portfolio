@@ -11,16 +11,20 @@
 </head>
 
 <body>
+    <!-- ===========hamburguer=========== -->
     <input type="checkbox" name="input-hamburguer" id="input-hamburguer">
     <section class="section-hamburguer">
         <nav class="nav-hamburguer">
             <ul class="ul-hamburguer">
-                <li><a class="a-home-hamburguer color" href="./home.html">Home</a></li><br>
-                <li><a class="a-projects-hamburguer color arrow-a" href="./projects.html">Projetos <ion-icon
-                            name="arrow-forward-outline" class="arrow"></ion-icon></a></li>
+                <li><a class="a-home-hamburguer color arrow-a" href="./home.html">
+                        <ion-icon name="arrow-back-outline" class="arrow-home"></ion-icon> Home
+                    </a></li><br>
+                <li><a class="a-projects-hamburguer color" href="./projects.html">Projetos</a></li>
             </ul>
         </nav>
     </section>
+
+    <!-- ===========header=========== -->
 
     <header class="head">
         <nav class="nav">
@@ -30,10 +34,11 @@
                             class="green-color">PH</span><span class="blue-color">EL</span><span
                             class="purple-color">IPE</span></p>
                     <ul class="ul-bar">
-                        <li><a class="color" href="./home.html">Home</a></li>
-                        <li><a class="color arrow-a" href="./projects.html">Projetos <ion-icon
-                                    name="arrow-forward-outline" class="arrow">
-                                </ion-icon></a></li>
+                        <li><a class="color arrow-a" href="./home.html">
+                                <ion-icon name="arrow-back-outline" class="arrow-home"></ion-icon> Home
+                            </a></li>
+                        <li><a class="color" href="./projects.html">Projetos
+                            </a></li>
                     </ul>
                 </div>
                 <div class="theme-humburguer">
@@ -60,18 +65,18 @@
         </nav>
     </header>
     <div class="spacing"></div>
-
     <section class="projects-page">
         <h1 class="color">Em breve..</h1>
     </section>
 
+    <!-- ===========footer=========== -->
 
     <footer class="footer-page">
         <div class="footer-page-container">
             <div class="languages-used">
                 <h2 class="tittle-languages-used color">Linguagens usadas</h2>
                 <div class="languages-used-text">
-                    <p><a class="color" target="_blank"
+                    <p><a class="color teste" target="_blank"
                             href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML-5</a></p>
                     <p><a class="color" target="_blank"
                             href="https://developer.mozilla.org/pt-BR/docs/Web/css">CSS-3</a></p>
@@ -94,7 +99,6 @@
                         <a class="color" target="_blank" href="https://github.com/LuisAndradeDias">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
-
                     </span>
                     <span>
                         <a class="color" target="_blank" href="https://www.instagram.com/luis_.andrade_/">
@@ -104,6 +108,8 @@
                 </div>
             </div>
         </div>
+        <p class="copyright-text color">&copy;luisphelipe 2021
+        </p>
     </footer>
     <script src="./assets/projects.js"></script>
     <script src="./assets/home.js"></script>

@@ -19,10 +19,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background: var(--background-dark);
     transition: all .7s;
+    overflow-x: hidden;
 }
 .spacing{
     width: 100%;
@@ -33,7 +35,6 @@ body{
 }
 
 .theme-humburguer{
-    gap: 1rem;
     display: flex;
 }
 .div-button-hamburguer{
@@ -50,10 +51,21 @@ body{
     gap: 3px;
     align-items: center;
 }
-.arrow{
-    animation: go-back 0.8s infinite alternate;
+.arrow-projects{
+    animation: go-back-projects 0.8s infinite alternate;
 }
-@keyframes go-back {
+.arrow-home{
+    animation: go-back-home 0.8s infinite alternate;
+}
+@keyframes go-back-home {
+    from {
+        transform: translateX(-10px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes go-back-projects {
     from {
         transform: translateX(10px);
     }
@@ -449,7 +461,6 @@ ul{
     }
 
 }
-
 /* ===========ROOT=========== */
 @media all and (max-width: 645px){
     :root{
