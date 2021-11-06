@@ -350,6 +350,7 @@ ul{
         min-height: 100vh;
         position: relative;
         font: 400 1rem Roboto Mono,monospace;
+        overflow-x: auto;
     }
     .home-page-container{
         position: relative;
