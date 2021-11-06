@@ -11,6 +11,17 @@
 </head>
 
 <body>
+    <input type="checkbox" name="input-hamburguer" id="input-hamburguer">
+    <section class="section-hamburguer">
+        <nav class="nav-hamburguer">
+            <ul class="ul-hamburguer">
+                <li><a class="a-home-hamburguer color" href="./home.html">Home</a></li><br>
+                <li><a class="a-projects-hamburguer color arrow-a" href="./projects.html">Projetos <ion-icon
+                            name="arrow-forward-outline" class="arrow"></ion-icon></a></li>
+            </ul>
+        </nav>
+    </section>
+
     <header class="head">
         <nav class="nav">
             <div class="nav-container">
@@ -18,51 +29,75 @@
                     <p class="tittle-name"><span class="purple-color">LU</span><span class="pink-color">IS</span><span
                             class="green-color">PH</span><span class="blue-color">EL</span><span
                             class="purple-color">IPE</span></p>
+                    <ul class="ul-bar">
+                        <li><a class="color" href="./home.html">Home</a></li>
+                        <li><a class="color arrow-a" href="./projects.html">Projetos <ion-icon
+                                    name="arrow-forward-outline" class="arrow">
+                                </ion-icon></a></li>
+                    </ul>
                 </div>
-                <ul class="ul-bar">
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./projects.html" class="projects">Projetos</a></li>
-                </ul>
+                <div class="theme-humburguer">
+                    <div class="div-theme">
+                        <div class="div-theme-container">
+                            <button class="button-theme theme">
+                                <ion-icon class="sun-theme-icon theme" name="sunny-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="div-button-hamburguer">
+                        <button class="button-hamburguer color">
+                            Open
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20,5h-8.586L9.707,3.293C9.52,3.105,9.265,3,9,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V7 C22,5.897,21.103,5,20,5z M4,19V7h7h1h8l0.002,12H4z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-
     <div class="spacing"></div>
+
     <section class="projects-page">
-        <h1>Em breve..</h1>
+        <h1 class="color">Em breve..</h1>
     </section>
 
 
     <footer class="footer-page">
         <div class="footer-page-container">
             <div class="languages-used">
-                <h2 class="tittle-languages-used">Linguagens usadas</h2>
+                <h2 class="tittle-languages-used color">Linguagens usadas</h2>
                 <div class="languages-used-text">
-                    <p><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML-5</a></p>
-                    <p><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/css">CSS-3</a></p>
-                    <p><a target="_blank"
+                    <p><a class="color" target="_blank"
+                            href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML-5</a></p>
+                    <p><a class="color" target="_blank"
+                            href="https://developer.mozilla.org/pt-BR/docs/Web/css">CSS-3</a></p>
+                    <p><a class="color" target="_blank"
                             href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript-ES6</a></p>
                 </div>
             </div>
             <div class="contacts">
-                <h2 class="tittle-contacts">Contatos</h2>
+                <h2 class="tittle-contacts color">Contatos</h2>
                 <div class="contacts-text">
-                    <p><a target="_blank"
+                    <p><a class="color" target="_blank"
                             href="mailto:luisphelipeandradedias@gmail.com">luisphelipeandradedias@gmail.com</a></p>
-                    <p><a target="_blank" href="tel:22997105484">(22) 99710-5484</a></p>
+                    <p><a class="color" target="_blank" href="tel:22997105484">(22) 99710-5484</a></p>
                 </div>
             </div>
             <div class="social-networks">
-                <h2 class="tittle-social-networks">Redes sociais</h2>
+                <h2 class="tittle-social-networks color">Redes sociais</h2>
                 <div class="social-networks-text">
                     <span>
-                        <a target="_blank" href="https://github.com/LuisAndradeDias">
+                        <a class="color" target="_blank" href="https://github.com/LuisAndradeDias">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
 
                     </span>
                     <span>
-                        <a target="_blank" href="https://www.instagram.com/luis_.andrade_/">
+                        <a class="color" target="_blank" href="https://www.instagram.com/luis_.andrade_/">
                             <ion-icon name="logo-instagram"></ion-icon>
                         </a>
                     </span>
@@ -71,6 +106,7 @@
         </div>
     </footer>
     <script src="./assets/projects.js"></script>
+    <script src="./assets/home.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
