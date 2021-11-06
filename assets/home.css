@@ -434,7 +434,7 @@ ul{
         min-height: 100vh;
         width: 50%;
         position: fixed;
-        right: -110vh;
+        right: -120vh;
         top: 4rem;
         display: flex;
         justify-content: center;
