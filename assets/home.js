@@ -13,7 +13,6 @@ function scopoColor() {
     document.querySelector(".a-home-hamburguer").style.borderBottom = `2px solid ${colorAraay[numberColor]}`;
     document.querySelector(".a-projects-hamburguer").style.borderBottom = `2px solid ${colorAraay[numberColor]}`;
     document.querySelector(".section-hamburguer").style.border = `2px solid ${colorAraay[numberColor]}`;
-    document.querySelector(".projects-1").style.border = `2px solid ${colorAraay[numberColor]}`;
 }
 scopoColor()
 
