@@ -16,9 +16,6 @@
     --color-white: #ebf8ff;
     --padding-main: 7rem;
 }
-.email{
-    font-size: 5rem !important;
-}
 .img-1 {
     width: 500px;
     height: 200px;
@@ -108,7 +105,7 @@ ul {
 
 .tittle-name {
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 25.6px;
 }
 
 .purple-color {
@@ -259,12 +256,12 @@ ul {
 }
 
 .tittle-home-page {
-    font-size: 4rem;
+    font-size: 64px;
 
 }
 
 .p-home-page {
-    font-size: 1.2rem;
+    font-size: 19.2px;
 }
 
 .a-home-page {
@@ -356,7 +353,7 @@ ul {
 .tittle-html,
 .tittle-css,
 .tittle-js {
-    font-size: 1.4rem;
+    font-size: 22.4px;
 }
 
 .box-html:hover,
@@ -441,11 +438,11 @@ ul {
 .languages-used-text,
 .contacts-text,
 .email {
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 
 .social-networks-text {
-    font-size: 1.8rem;
+    font-size: 28.8px;
 }
 
 .languages-used-text a:hover,
@@ -491,11 +488,11 @@ ul {
     }
 
     .tittle-home-page {
-        font-size: 2.5rem;
+        font-size: 40px;
     }
 
     .p-home-page {
-        font-size: 1.1rem;
+        font-size: 17.6px;
     }
 
     .about-me-page {
@@ -629,11 +626,11 @@ ul {
 /* ===========FONT HOME/ICONS=========== */
 @media all and (max-width: 540px) {
     .tittle-home-page {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     .p-home-page {
-        font-size: 1rem;
+        font-size: 16px;
     }
 
     .icon-html,
@@ -645,7 +642,7 @@ ul {
     .tittle-html,
     .tittle-css,
     .tittle-js {
-        font-size: 1.3rem;
+        font-size: 20.8px;
     }
 }
 
@@ -671,7 +668,7 @@ ul {
 /* ===========FONT HOME=========== */
 @media all and (max-width: 460px) {
     .tittle-home-page {
-        font-size: 2.1rem;
+        font-size: 33.6px;
     }
 
     .svg-home {
@@ -684,7 +681,7 @@ ul {
 
     .languages-used-text,
     .contacts-text {
-        font-size: 0.9rem;
+        font-size: 14.4px;
     }
 }
 
@@ -694,11 +691,11 @@ ul {
     }
 
     .tittle-home-page {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     .p-home-page {
-        font-size: 0.9rem;
+        font-size: 14.4px;
     }
 }
 
@@ -706,6 +703,6 @@ ul {
 
     .languages-used-text,
     .contacts-text {
-        font-size: 0.7rem;
+        font-size: 11.2px;
     }
 }
