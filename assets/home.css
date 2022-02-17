@@ -437,7 +437,8 @@ ul {
 }
 
 .languages-used-text,
-.contacts-text a {
+.contacts-text,
+.email {
     font-size: 1.1rem;
 }
 
@@ -680,7 +681,8 @@ ul {
 @media all and (max-width: 400px) {
 
     .languages-used-text,
-    .contacts-text a {
+    .contacts-text,
+    .email {
         font-size: 0.9rem;
     }
 }
@@ -702,7 +704,8 @@ ul {
 @media all and (max-width: 380px) {
 
     .languages-used-text,
-    .contacts-text a {
+    .contacts-text,
+    .email {
         font-size: 0.7rem;
     }
 }
