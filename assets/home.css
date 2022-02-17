@@ -189,6 +189,7 @@ ul {
 .ul-bar a {
     position: relative;
     font-weight: 600;
+    font-size: 19px;
 }
 
 .div-tittle {
@@ -198,28 +199,29 @@ ul {
 
 .div-theme {
     position: relative;
-    width: 45px;
+    width: 51px;
+    display: flex;
+    justify-content: center;
 }
-
 .div-theme-container {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .button-theme {
     background: none;
+    position: relative;
     border: none;
 }
 
-.theme {
+.div-theme-container ion-icon{
     cursor: pointer;
-    font-size: 25px;
+    font-size: 30px;
+    margin-top: 1px;
 }
+
+
 
 /* ===========HOME PAGE=========== */
 
@@ -290,6 +292,8 @@ ul {
     padding: 20px;
     overflow-y: auto;
     text-align: center;
+    font-size: 21px;
+    letter-spacing: 1px;
 }
 
 /* ===========LINGUAGENS=========== */
@@ -436,8 +440,7 @@ ul {
 }
 
 .languages-used-text,
-.contacts-text,
-.email {
+.contacts-text {
     font-size: 17.6px;
 }
 
@@ -494,15 +497,22 @@ ul {
     .p-home-page {
         font-size: 17.6px;
     }
-
     .about-me-page {
         font: 400 1rem Roboto Mono, monospace;
         padding-left: var(--padding-main);
         padding-right: var(--padding-main);
-        padding: 50px 0;
+        padding: 50px 20px;
         min-height: 50vh;
         position: relative;
     }
+    /* .about-me-page {
+        font: 400 1rem Roboto Mono, monospace;
+        padding-left: var(--padding-main);
+        padding-right: var(--padding-main);
+        padding: 50px 0;
+        min-height: 20vh;
+        position: relative;
+    } */
 }
 
 /* ===========FOOTER=========== */
