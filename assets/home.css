@@ -437,7 +437,7 @@ ul {
 }
 
 .languages-used-text,
-.contacts-text {
+.contacts-text a {
     font-size: 1.1rem;
 }
 
@@ -451,6 +451,8 @@ ul {
 }
 
 .copyright-text {
+    text-align: center;
+    padding: 2rem 0 1rem 0;
     opacity: 0.85;
 }
 
@@ -678,7 +680,7 @@ ul {
 @media all and (max-width: 400px) {
 
     .languages-used-text,
-    .contacts-text {
+    .contacts-text a {
         font-size: 0.9rem;
     }
 }
@@ -700,7 +702,7 @@ ul {
 @media all and (max-width: 380px) {
 
     .languages-used-text,
-    .contacts-text {
+    .contacts-text a {
         font-size: 0.7rem;
     }
 }

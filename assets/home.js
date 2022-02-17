@@ -56,12 +56,7 @@ function scopoHamburguer() {
         else if (inputHamburguer.checked == true) {
             inputHamburguer.checked = false;
             buttonHamburguer.innerHTML = `Open
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
-                height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M20,5h-8.586L9.707,3.293C9.52,3.105,9.265,3,9,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V7 C22,5.897,21.103,5,20,5z M4,19V7h7h1h8l0.002,12H4z">
-                </path>
-            </svg>`;
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"height="1.5rem" width="1.5rem" xmlns="http://www.w3.org/2000/svg"> <path d="M20,5h-8.586L9.707,3.293C9.52,3.105,9.265,3,9,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V7 C22,5.897,21.103,5,20,5z M4,19V7h7h1h8l0.002,12H4z"> </path> </svg>`;
         }
     };
 }
