@@ -16,7 +16,9 @@
     --color-white: #ebf8ff;
     --padding-main: 7rem;
 }
-
+.email{
+    font-size: 5rem !important;
+}
 .img-1 {
     width: 500px;
     height: 200px;
@@ -681,8 +683,7 @@ ul {
 @media all and (max-width: 400px) {
 
     .languages-used-text,
-    .contacts-text,
-    .email {
+    .contacts-text {
         font-size: 0.9rem;
     }
 }
@@ -704,8 +705,7 @@ ul {
 @media all and (max-width: 380px) {
 
     .languages-used-text,
-    .contacts-text,
-    .email {
+    .contacts-text {
         font-size: 0.7rem;
     }
 }
