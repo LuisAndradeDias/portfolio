@@ -227,7 +227,6 @@ ul {
 /* ===========HOME PAGE=========== */
 
 .home-page {
-    background: blue;
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
     height: 100vh;
@@ -274,7 +273,6 @@ ul {
 /* ===========SOBRE MIM=========== */
 
 .about-me-page {
-    background: red;
     font: 400 1rem Roboto Mono, monospace;
     padding: 20px;
     padding-left: var(--padding-main);
