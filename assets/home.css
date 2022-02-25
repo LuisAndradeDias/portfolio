@@ -17,10 +17,6 @@
     --padding-main: 112px;
     --padding-responsive: 32px;
 }
-.img-1 {
-    width: 500px;
-    height: 200px;
-}
 
 * {
     padding: 0;
@@ -37,7 +33,7 @@ body {
 
 .spacing {
     width: 100%;
-    height: 3rem;
+    height: 48px;
 }
 
 .color {
@@ -56,7 +52,9 @@ body {
     display: none;
 }
 
+
 /* ===========ANIMATION ARROW=========== */
+
 
 .arrow-a {
     display: flex;
@@ -92,7 +90,9 @@ body {
     }
 }
 
+
 /* ===========RESET TAGS=========== */
+
 
 a {
     text-decoration: none;
@@ -102,7 +102,9 @@ ul {
     list-style: none;
 }
 
+
 /* ===========COLOR NAME=========== */
+
 
 .tittle-name {
     font-weight: 900;
@@ -125,7 +127,9 @@ ul {
     color: #4299e1;
 }
 
+
 /* ===========THEME=========== */
+
 
 .theme-dark {
     background: var(--background-dark);
@@ -152,7 +156,9 @@ ul {
     color: var(--color-dark) !important;
 }
 
+
 /* ===========NAV BAR=========== */
+
 
 .head {
     font-family: 'Poppins';
@@ -167,7 +173,7 @@ ul {
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
     margin: 0 auto;
-    line-height: 4rem;
+    line-height: 64px;
     overflow: hidden;
     background: #000;
     transition: all .7s;
@@ -183,7 +189,7 @@ ul {
 }
 
 .ul-bar {
-    gap: 3.5rem;
+    gap: 56px;
     display: flex;
 }
 
@@ -195,7 +201,7 @@ ul {
 
 .div-tittle {
     display: flex;
-    gap: 4rem;
+    gap: 64px;
 }
 
 .div-theme {
@@ -204,6 +210,7 @@ ul {
     display: flex;
     justify-content: center;
 }
+
 .div-theme-container {
     display: flex;
     flex-direction: column;
@@ -223,17 +230,18 @@ ul {
 }
 
 
-
 /* ===========HOME PAGE=========== */
+
 
 .home-page {
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
     height: 100vh;
     position: relative;
-    font: 400 1rem Roboto Mono, monospace;
+    font: 400 16px Roboto Mono, monospace;
 
 }
+
 .home-page-container {
     position: relative;
     max-width: 1200px;
@@ -270,10 +278,12 @@ ul {
     color: var(--color-border);
 }
 
+
 /* ===========SOBRE MIM=========== */
 
+
 .about-me-page {
-    font: 400 1rem Roboto Mono, monospace;
+    font: 400 16px Roboto Mono, monospace;
     padding: 20px;
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
@@ -296,10 +306,12 @@ ul {
     letter-spacing: 1px;
 }
 
+
 /* ===========LINGUAGENS=========== */
 
+
 .language-page {
-    font: 400 1rem Roboto Mono, monospace;
+    font: 400 16px Roboto Mono, monospace;
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
     min-height: 70vh;
@@ -315,7 +327,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 50px 0 50px 0;
-    gap: 5rem;
+    gap: 80px;
 }
 
 .box-html,
@@ -379,15 +391,15 @@ ul {
     border: solid 2px #f7df1e;
 }
 
-/* ===========LINGUAGENS=========== */
-
 
 /* ===========FOOTER=========== */
+
+
 .footer-page {
     overflow-x: auto;
     width: 100%;
     z-index: 7;
-    font: 400 1rem Roboto Mono, monospace;
+    font: 400 16px Roboto Mono, monospace;
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
     min-height: 20vh;
@@ -429,7 +441,7 @@ ul {
 
 .copyright-text {
     text-align: center;
-    padding: 2rem 0 1rem 0;
+    padding: 32px 0 16px 0;
     opacity: 0.85;
 }
 
@@ -442,7 +454,7 @@ ul {
         margin: 0 auto;
         display: flex;
         flex-direction: column-reverse;
-        gap: 2rem;
+        gap: 32px;
         justify-content: center;
     }
 
@@ -475,7 +487,7 @@ ul {
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 20px 0 20px 0;
-        gap: 2.5rem;
+        gap: 40px;
     }
 
 }
@@ -513,7 +525,7 @@ ul {
         width: 50%;
         position: fixed;
         right: -120vh;
-        top: 4rem;
+        top: 64px;
         display: flex;
         justify-content: center;
         background: #000;
@@ -541,7 +553,7 @@ ul {
         width: 50%;
         position: fixed;
         right: 0;
-        top: 4rem;
+        top: 64px;
         display: flex;
         justify-content: center;
         background: #000;
@@ -562,7 +574,7 @@ ul {
         padding-right: var(--padding-responsive);
     }
 }
-/* ===========SVG=========== */
+/* ===========HOME=========== */
 @media all and (max-width: 590px) {
     .div-home-home-page{
         height: 250px;
@@ -610,7 +622,7 @@ ul {
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
-        gap: 2rem;
+        gap: 32px;
     }
 
     .div-profile-home-page {
