@@ -19,7 +19,6 @@
 }
 
 * {
-    border: 1px solid red;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -197,7 +196,7 @@ ul {
 .ul-bar a {
     position: relative;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .div-tittle {
@@ -226,7 +225,7 @@ ul {
 
 .div-theme-container ion-icon{
     cursor: pointer;
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 1px;
 }
 
@@ -263,7 +262,7 @@ ul {
 }
 
 .svg-home {
-    width: 410px;
+    width: 370px;
 }
 
 .tittle-home-page {
@@ -288,10 +287,14 @@ ul {
     padding: 20px;
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
-    min-height: 50vh;
+    min-height: 70vh;
     position: relative;
 }
-
+.about-me-tittle{
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
 .div-about-me-container {
     position: relative;
     max-width: 1200px;
@@ -313,12 +316,17 @@ ul {
 
 .language-page {
     font: 400 16px Roboto Mono, monospace;
+    padding: 20px;
     padding-left: var(--padding-main);
     padding-right: var(--padding-main);
     min-height: 70vh;
     position: relative;
 }
-
+.language-tittle{
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
 .language-page-container {
     position: relative;
     max-width: 1200px;
@@ -327,7 +335,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 50px 0 50px 0;
+    padding: 20px 0 20px 0;
     gap: 80px;
 }
 
