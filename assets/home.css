@@ -106,7 +106,7 @@ ul {
 /* ===========COLOR NAME=========== */
 
 
-.tittle-name {
+.title-name {
     font-weight: 900;
     font-size: 25.6px;
 }
@@ -199,7 +199,7 @@ ul {
     font-size: 18px;
 }
 
-.div-tittle {
+.div-title {
     display: flex;
     gap: 64px;
 }
@@ -265,7 +265,7 @@ ul {
     width: 370px;
 }
 
-.tittle-home-page {
+.title-home-page {
     font-size: 64px;
 
 }
@@ -290,35 +290,37 @@ ul {
     min-height: 80vh;
     position: relative;
 }
-.div-about-me-tittle{
+.div-about-me-title{
     text-align: center;
     width: 100%;
 }
-.about-me-tittle{
+
+.about-me-title{
     display: inline;
     position: relative;
     text-align: center;
     font-size: 34px;
 }
-.about-me-tittle:after{
+.about-me-title:after{
     z-index: -1;
     position: absolute;
     content: '';
-    width: 80%;
+    width: 90%;
     height: 15px;
     top: 22px;
-    left: 0px;
+    left: -6px;
 }
-.about-me-tittle-blue::after{
+
+.about-me-title-blue::after{
     background: #3182ce;
 }
-.about-me-tittle-purple::after{
+.about-me-title-purple::after{
     background: #9f7aea;
 }
-.about-me-tittle-green::after{
+.about-me-title-green::after{
     background: #48bb78;
 }
-.about-me-tittle-pink::after{
+.about-me-title-pink::after{
     background: #ed64a6;
 }
 
@@ -351,39 +353,39 @@ ul {
     min-height: 80vh;
     position: relative;
 }
-.div-language-tittle{
+
+.div-language-title{
     text-align: center;
     width: 100%;
 }
-.language-tittle{
+
+.language-title{
     display: inline;
     position: relative;
     text-align: center;
     font-size: 34px;
 }
-.language-tittle:after{
+.language-title:after{
     z-index: -1;
     position: absolute;
     content: '';
-    width: 80%;
+    width: 90%;
     height: 15px;
     top: 22px;
-    left: 0px;
+    left: -6px;
 }
-.language-tittle-blue::after{
+.language-title-blue::after{
     background: #3182ce;
 }
-.language-tittle-purple::after{
+.language-title-purple::after{
     background: #9f7aea;
 }
-.language-tittle-green::after{
+.language-title-green::after{
     background: #48bb78;
 }
-.language-tittle-pink::after{
+.language-title-pink::after{
     background: #ed64a6;
 }
-
-
 
 .language-page-container {
     padding-top: 20px;
@@ -422,21 +424,21 @@ ul {
     width: 80px;
 }
 
-.tittle-html {
+.title-html {
     color: #e34f26;
 }
 
-.tittle-css {
+.title-css {
     color: #1572b6;
 }
 
-.tittle-js {
+.title-js {
     color: #f7df1e;
 }
 
-.tittle-html,
-.tittle-css,
-.tittle-js {
+.title-html,
+.title-css,
+.title-js {
     font-size: 22.4px;
 }
 
@@ -487,9 +489,9 @@ ul {
     padding: 20px 0 20px 0;
 }
 
-.tittle-languages-used,
-.tittle-contacts,
-.tittle-social-networks {
+.title-languages-used,
+.title-contacts,
+.title-social-networks {
     padding-bottom: 10px;
 }
 
@@ -535,7 +537,7 @@ ul {
         width: 370px;
     }
 
-    .tittle-home-page {
+    .title-home-page {
         font-size: 40px;
     }
 
@@ -657,7 +659,7 @@ ul {
 
 /* ===========FONT HOME/ICONS=========== */
 @media all and (max-width: 540px) {
-    .tittle-home-page {
+    .title-home-page {
         font-size: 32px;
     }
 
@@ -673,9 +675,9 @@ ul {
         width: 70px;
     }
 
-    .tittle-html,
-    .tittle-css,
-    .tittle-js {
+    .title-html,
+    .title-css,
+    .title-js {
         font-size: 20.8px;
     }
 }
@@ -701,7 +703,7 @@ ul {
 
 /* ===========FONT HOME=========== */
 @media all and (max-width: 460px) {
-    .tittle-home-page {
+    .title-home-page {
         font-size: 33.6px;
     }
     .div-home-home-page{
@@ -729,7 +731,7 @@ ul {
         width: 230px;
     }
 
-    .tittle-home-page {
+    .title-home-page {
         font-size: 32px;
     }
 
