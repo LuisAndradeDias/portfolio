@@ -6,6 +6,55 @@ function scopoColor() {
         color4 = '#ed64a6'
     ]
     let numberColor = parseInt(Math.random() * colorAraay.length);
+    let afterAboutMe = document.querySelector(".about-me-tittle");
+    let afterLanguage = document.querySelector(".language-tittle")
+    
+    if (colorAraay[numberColor] === '#3182ce') {
+        afterAboutMe.classList.add('about-me-tittle-blue');
+        afterAboutMe.classList.remove('about-me-tittle-purple');
+        afterAboutMe.classList.remove('about-me-tittle-green');
+        afterAboutMe.classList.remove('about-me-tittle-pink');
+
+        afterLanguage.classList.add('language-tittle-blue');
+        afterLanguage.classList.remove('language-tittle-purple');
+        afterLanguage.classList.remove('language-tittle-green');
+        afterLanguage.classList.remove('language-tittle-pink');
+    }
+    if (colorAraay[numberColor] === '#9f7aea') {
+        afterAboutMe.classList.remove('about-me-tittle-blue');
+        afterAboutMe.classList.add('about-me-tittle-purple');
+        afterAboutMe.classList.remove('about-me-tittle-green');
+        afterAboutMe.classList.remove('about-me-tittle-pink');
+
+        afterLanguage.classList.remove('language-tittle-blue');
+        afterLanguage.classList.add('language-tittle-purple');
+        afterLanguage.classList.remove('language-tittle-green');
+        afterLanguage.classList.remove('language-tittle-pink');
+    }
+    if (colorAraay[numberColor] === '#48bb78') {
+        afterAboutMe.classList.remove('about-me-tittle-blue');
+        afterAboutMe.classList.remove('about-me-tittle-purple');
+        afterAboutMe.classList.add('about-me-tittle-green');
+        afterAboutMe.classList.remove('about-me-tittle-pink');
+
+        afterLanguage.classList.remove('language-tittle-blue');
+        afterLanguage.classList.remove('language-tittle-purple');
+        afterLanguage.classList.add('language-tittle-green');
+        afterLanguage.classList.remove('language-tittle-pink');
+    }
+    if (colorAraay[numberColor] === '#ed64a6') {
+        afterAboutMe.classList.remove('about-me-tittle-blue');
+        afterAboutMe.classList.remove('about-me-tittle-purple');
+        afterAboutMe.classList.remove('about-me-tittle-green');
+        afterAboutMe.classList.add('about-me-tittle-pink');
+
+        afterLanguage.classList.remove('language-tittle-blue');
+        afterLanguage.classList.remove('language-tittle-purple');
+        afterLanguage.classList.remove('language-tittle-green');
+        afterLanguage.classList.add('language-tittle-pink');
+    }
+
+
     document.querySelector(".head").style.borderBottom = `2px solid ${colorAraay[numberColor]}`;
     document.querySelector(".footer-page").style.borderTop = `2px solid ${colorAraay[numberColor]}`;
     document.querySelector(".theme").style.color = colorAraay[numberColor];
