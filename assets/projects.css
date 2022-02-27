@@ -79,9 +79,3 @@
     color:red;
 }
 
-@media all and (max-width: 490px){
-    .projects-page{
-        padding-left: var(--padding-responsive);
-        padding-right: var(--padding-responsive);
-    }
-}

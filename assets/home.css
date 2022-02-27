@@ -53,39 +53,39 @@ body {
 }
 
 .div-title{
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 .title{
-    display: inline;
-    position: relative;
-    text-align: center;
-    font-size: 34px;
+  display: inline;
+  position: relative;
+  text-align: center;
+  font-size: 34px;
 }
 .title:after{
-    z-index: -1;
-    position: absolute;
-    content: '';
-    width: 90%;
-    height: 15px;
-    top: 22px;
-    left: -6px;
+  z-index: -1;
+  position: absolute;
+  content: '';
+  width: 90%;
+  height: 15px;
+  top: 22px;
+  left: -6px;
 }
 .title-blue::after{
-    background: #3182ce;
+  background: #3182ce;
 }
 .title-purple::after{
-    background: #9f7aea;
+  background: #9f7aea;
 }
 .title-green::after{
-    background: #48bb78;
+  background: #48bb78;
 }
 .title-pink::after{
-    background: #ed64a6;
+  background: #ed64a6;
 }
 
 
-/* ===========ANIMATION 1=========== */
+/* ===========ANIMATION ARROW=========== */
 
 
 .arrow-a {
@@ -122,29 +122,22 @@ body {
     }
 }
 
-/* ===========ANIMATION 2=========== */
 
 [data-anime] {
     opacity: 0;
     transition: .3s;
 }
 
-[data-anime="left"] {
-    transform: translate3d(-50px, 0, 0);
-}
-
-[data-anime="right"] {
-    transform: translate3d(50px, 0, 0);
-}
 
 [data-anime="top"] {
-    transform: translate3d(0, -50px, 0);
+    transform: translateY(50px);
 }
 
 [data-anime].animate {
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
+    transform: translateX(0px);
 }
+
 
 /* ===========RESET TAGS=========== */
 
@@ -367,104 +360,105 @@ ul {
 
 
 .projects-page{
-    font: 400 16px Roboto Mono, monospace;
-    padding: 20px;
-    padding-left: var(--padding-main);
-    padding-right: var(--padding-main);
-    min-height: 80vh;
-    position: relative;
+  font: 400 16px Roboto Mono, monospace;
+  padding: 20px;
+  padding-left: var(--padding-main);
+  padding-right: var(--padding-main);
+  min-height: 80vh;
+  position: relative;
 }
 
 .projects-page-container{
-    padding-top: 20px;
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px 0 20px 0;
-    gap: 80px;
+  padding-top: 20px;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 0 20px 0;
+  gap: 80px;
 }
 
 .projects-container{
-    padding: 10px;
-    position: relative;
-    width: 300px;
+  padding: 10px;
+  position: relative;
+  width: 300px;
 }
 
 .projects-img-div img{
-    border-radius: 5px;
-    width: 100%;
+  border-radius: 5px;
+  width: 100%;
 }
 
 .projects-text{
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .projects-button{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .projects-button button{
-    cursor: pointer;
-    position: relative;
-    background: none;
-    width: 110px;
-    line-height: 20px;
-    font-size: 16px;
-    padding: 5px 2px;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
+  cursor: pointer;
+  position: relative;
+  background: none;
+  width: 110px;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 5px 2px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 
 .projects-button button ion-icon{
-    font-size: 20px;
-    float: left;
+  font-size: 20px;
+  float: left;
 }
 
 .projects-mobile{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .projects-mobile p{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .checkmark{
-    font-size: 16px;
-    color: green;
+  font-size: 16px;
+  color: green;
 }
 
 .no-checkmark{
-    font-size: 16px;
-    color:red;
+  font-size: 16px;
+  color:red;
 }
 .button-view-more{
-    text-align: center;
+  text-align: center;
 }
 .button-view-more button{
-    cursor: pointer;
-    position: relative;
-    background: none;
-    width: 210px;
-    line-height: 20px;
-    font-size: 16px;
-    padding: 5px 2px;
-    font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  background: none;
+  width: 210px;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 5px 2px;
+  font-weight: 700;
 }
 
 @media all and (max-width: 490px){
-    .projects-page{
-        padding-left: var(--padding-responsive);
-        padding-right: var(--padding-responsive);
-    }
+  .projects-page{
+      padding-left: var(--padding-responsive);
+      padding-right: var(--padding-responsive);
+  }
 }
+
 
 /* ===========LINGUAGENS=========== */
 
