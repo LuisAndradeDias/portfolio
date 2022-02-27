@@ -29,7 +29,7 @@
     <header class="head">
         <nav class="nav">
             <div class="nav-container">
-                <div class="div-title">
+                <div class="div-title-bar">
                     <p class="title-name"><a href="#home-page"><span class="purple-color">LU</span><span
                                 class="pink-color">IS</span><span class="green-color">PH</span><span
                                 class="blue-color">EL</span><span class="purple-color">IPE</span></a></p>
@@ -84,8 +84,8 @@
     </section>
     <!-- ===========about me=========== -->
 
-    <section class="about-me-page">
-        <div class="div-about-me-title"><h1 class="color about-me-title">Sobre mim</h1></div>
+    <section class="about-me-page" data-anime="left">
+        <div class="div-title"><h1 class="color title">Sobre mim</h1></div>
         <div class="div-about-me-container">
             <div class="about-me-text">
                 <p class="color"> Meu nome é Luis Phelipe, tenho 17 anos, sou estudante do 3° ano do ensino médio
@@ -106,10 +106,48 @@
             </div>
         </div>
     </section>
+
+        <!-- ===========projects=========== -->
+
+    <section class="projects-page" data-anime="right">
+        <div class="div-title"><h1 class="color title">Projetos</h1></div>
+        <div class="projects-page-container">
+            <div class="projects-container projects">
+                <div class="projects-img-div"><img src="/assets/img/calculadora.png" alt=""></div>
+                <div class="projects-text"><p class="color">APP calculadora funcional com funcionalidade básica</p></div>
+                <div class="projects-mobile"><p class="color">Responsive:<ion-icon class="checkmark" name="checkmark-outline"></ion-icon></p></div>
+                <div class="projects-button">
+                    <a href="https://luis-calculadora.netlify.app" target="_brank"><button class="button-projects color"><ion-icon name="eye-outline"></ion-icon>Preview</button></a> 
+                    <a href="https://github.com/LuisAndradeDias/calculadora" target="_brank"><button class="button-projects color"><ion-icon class="icon-code" name="code-outline"></ion-icon>Code</button></a>
+                </div>
+            </div>
+            <div class="projects-container projects">
+                <div class="projects-img-div"><img src="/assets/img/mentalista.png" alt=""></div>
+                <div class="projects-text"><p class="color">Jogo criado por diversão na imersão dev com @alura</p></div>
+                <div class="projects-mobile"><p class="color">Responsive:<ion-icon class="checkmark" name="checkmark-outline"></ion-icon></p></div>
+                <div class="projects-button">
+                    <a href="https://jogo-mentalista.netlify.app" target="_brank"><button class="button-projects color"><ion-icon name="eye-outline"></ion-icon>Preview</button></a> 
+                    <a href="https://github.com/LuisAndradeDias/Mentalista" target="_brank"><button class="button-projects color"><ion-icon class="icon-code" name="code-outline"></ion-icon>Code</button></a>
+                </div>            
+            </div>
+            <div class="projects-container projects">
+                <div class="projects-img-div"><img src="/assets/img/tarefas.png" alt=""></div>
+                <div class="projects-text"><p class="color">APP Taskday feito para salvar suas tarefas do dia a dia</p></div>
+                <div class="projects-mobile"><p class="color">Responsive:<ion-icon class="checkmark" name="checkmark-outline"></ion-icon></p></div>
+                <div class="projects-button">
+                    <a href="https://taskday.netlify.app" target="_brank"><button class="button-projects color"><ion-icon name="eye-outline"></ion-icon>Preview</button></a> 
+                    <a href="https://github.com/LuisAndradeDias/Tarefas " target="_brank"><button class="button-projects color"><ion-icon class="icon-code" name="code-outline"></ion-icon>Code</button></a>
+                </div>            
+            </div>
+        </div>
+        <div class="button-view-more"><a href="/projects.html"><button class="button-projects color">Ver mais...</button></a></div>
+    </section>
+
+
     <!-- ===========language=========== -->
 
-    <section class="language-page">
-        <div class="div-language-title"><h1 class="color language-title">Linguagens</h1></div>
+    <section class="language-page" data-anime="left">
+        <div class="div-title"><h1 class="color title">Linguagens</h1></div>
         <div class="language-page-container">
             <div class="box-html">
                 <div class="div-icon-html">
@@ -180,7 +218,7 @@
     </footer>
     <!--===========script scr===========-->
 
-    <script src="./assets/home.js"></script>
+    <script src="./assets/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

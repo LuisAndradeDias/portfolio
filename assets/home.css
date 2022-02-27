@@ -52,8 +52,40 @@ body {
     display: none;
 }
 
+.div-title{
+    text-align: center;
+    width: 100%;
+}
+.title{
+    display: inline;
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+}
+.title:after{
+    z-index: -1;
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 15px;
+    top: 22px;
+    left: -6px;
+}
+.title-blue::after{
+    background: #3182ce;
+}
+.title-purple::after{
+    background: #9f7aea;
+}
+.title-green::after{
+    background: #48bb78;
+}
+.title-pink::after{
+    background: #ed64a6;
+}
 
-/* ===========ANIMATION ARROW=========== */
+
+/* ===========ANIMATION 1=========== */
 
 
 .arrow-a {
@@ -90,6 +122,29 @@ body {
     }
 }
 
+/* ===========ANIMATION 2=========== */
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+    transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
 
 /* ===========RESET TAGS=========== */
 
@@ -199,7 +254,7 @@ ul {
     font-size: 18px;
 }
 
-.div-title {
+.div-title-bar {
     display: flex;
     gap: 64px;
 }
@@ -290,40 +345,6 @@ ul {
     min-height: 80vh;
     position: relative;
 }
-.div-about-me-title{
-    text-align: center;
-    width: 100%;
-}
-
-.about-me-title{
-    display: inline;
-    position: relative;
-    text-align: center;
-    font-size: 34px;
-}
-.about-me-title:after{
-    z-index: -1;
-    position: absolute;
-    content: '';
-    width: 90%;
-    height: 15px;
-    top: 22px;
-    left: -6px;
-}
-
-.about-me-title-blue::after{
-    background: #3182ce;
-}
-.about-me-title-purple::after{
-    background: #9f7aea;
-}
-.about-me-title-green::after{
-    background: #48bb78;
-}
-.about-me-title-pink::after{
-    background: #ed64a6;
-}
-
 
 .div-about-me-container {
     padding-top: 20px;
@@ -342,6 +363,109 @@ ul {
 }
 
 
+/* ===========PROJECTS-PAGE=========== */
+
+
+.projects-page{
+    font: 400 16px Roboto Mono, monospace;
+    padding: 20px;
+    padding-left: var(--padding-main);
+    padding-right: var(--padding-main);
+    min-height: 80vh;
+    position: relative;
+}
+
+.projects-page-container{
+    padding-top: 20px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
+    gap: 80px;
+}
+
+.projects-container{
+    padding: 10px;
+    position: relative;
+    width: 300px;
+}
+
+.projects-img-div img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.projects-text{
+    padding-top: 5px;
+}
+
+.projects-button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.projects-button button{
+    cursor: pointer;
+    position: relative;
+    background: none;
+    width: 110px;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 5px 2px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.projects-button button ion-icon{
+    font-size: 20px;
+    float: left;
+}
+
+.projects-mobile{
+    margin-top: 10px;
+}
+
+.projects-mobile p{
+    text-decoration: underline;
+}
+
+.checkmark{
+    font-size: 16px;
+    color: green;
+}
+
+.no-checkmark{
+    font-size: 16px;
+    color:red;
+}
+.button-view-more{
+    text-align: center;
+}
+.button-view-more button{
+    cursor: pointer;
+    position: relative;
+    background: none;
+    width: 210px;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 5px 2px;
+    font-weight: 700;
+}
+
+@media all and (max-width: 490px){
+    .projects-page{
+        padding-left: var(--padding-responsive);
+        padding-right: var(--padding-responsive);
+    }
+}
+
 /* ===========LINGUAGENS=========== */
 
 
@@ -352,39 +476,6 @@ ul {
     padding-right: var(--padding-main);
     min-height: 80vh;
     position: relative;
-}
-
-.div-language-title{
-    text-align: center;
-    width: 100%;
-}
-
-.language-title{
-    display: inline;
-    position: relative;
-    text-align: center;
-    font-size: 34px;
-}
-.language-title:after{
-    z-index: -1;
-    position: absolute;
-    content: '';
-    width: 90%;
-    height: 15px;
-    top: 22px;
-    left: -6px;
-}
-.language-title-blue::after{
-    background: #3182ce;
-}
-.language-title-purple::after{
-    background: #9f7aea;
-}
-.language-title-green::after{
-    background: #48bb78;
-}
-.language-title-pink::after{
-    background: #ed64a6;
 }
 
 .language-page-container {
